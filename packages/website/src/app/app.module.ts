@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderIconLinkComponent } from './system/header-icon-link/header-icon-link.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderIconLinkComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

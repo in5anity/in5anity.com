@@ -1,0 +1,28 @@
+:host {
+  display: block;
+}
+
+.header {
+  height: 140px;
+  border-bottom: 1px solid #F1E8F4;
+  padding: 0 40px;
+
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.logo {
+  height: 50px;
+}
+
+.links {
+  display: flex;
+
+  app-header-icon-link:not(:first-child) {
+    margin-left: 30px;
+  }
+}

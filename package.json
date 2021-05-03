@@ -2,18 +2,12 @@
   "name": "in5anity",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "dev:ssr": "ng run in5anity:serve-ssr",
-    "serve:ssr": "node dist/in5anity/server/main.js",
-    "build:ssr": "ng build --prod && ng run in5anity:server:production",
-    "prerender": "ng run in5anity:prerender"
+    "dev:ssr:website": "lerna run dev:ssr --scope website --stream"
   },
   "private": true,
+  "workspaces": [
+    "packages/website"
+  ],
   "dependencies": {
     "@angular/animations": "~11.2.7",
     "@angular/common": "~11.2.7",
