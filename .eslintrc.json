@@ -16,6 +16,7 @@
             "error",
             "unix"
         ],
+        "comma-dangle": ["error", "never"],
         "max-len": [
             "error",
             {

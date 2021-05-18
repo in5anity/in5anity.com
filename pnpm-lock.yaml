@@ -1,12 +1,14 @@
 lockfileVersion: 5.3
 
 specifiers:
-  esbuild: ^0.12.0
-  eslint: ^7.26.0
+  esbuild: 0.12.0
+  eslint: 7.26.0
+  lit-html: ^1.4.1
 
 dependencies:
   esbuild: 0.12.0
   eslint: 7.26.0
+  lit-html: 1.4.1
 
 packages:
 
@@ -500,6 +502,10 @@ packages:
     dependencies:
       prelude-ls: 1.2.1
       type-check: 0.4.0
+    dev: false
+
+  /lit-html/1.4.1:
+    resolution: {integrity: sha512-B9btcSgPYb1q4oSOb/PrOT6Z/H+r6xuNzfH4lFli/AWhYwdtrgQkQWBbIc6mdnf6E2IL3gDXdkkqNktpU0OZQA==}
     dev: false
 
   /lodash.clonedeep/4.5.0:
